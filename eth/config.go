@@ -45,8 +45,8 @@ var DefaultConfig = Config{
 	GatewayFee:              big.NewInt(0),
 
 	TxPool:      core.DefaultTxPoolConfig,
-	RPCGasCap:   25000000,
-	RPCTxFeeCap: 500, // 500 celo
+	RPCGasCap:   0,
+	RPCTxFeeCap: 0, // 500 celo
 
 	Istanbul: *istanbul.DefaultConfig,
 }
